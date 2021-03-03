@@ -1,0 +1,13 @@
+#开发环境
+server:
+  port: 8081
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3307/sleep_cycle?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=GMT%2B8
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
